@@ -1,0 +1,52 @@
+#headcontent{
+    font-size: 46px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+@keyframes onhover {
+    from{
+        margin-left: 0px;
+    }
+    to{
+        margin-left: 20px;
+    } 
+}
+
+#sidebar{
+    font-size: large;
+    width: 250px;
+    height: fit-content;
+    background-color: #fff;
+    border: 2px solid #dbdbdb;
+    position: fixed;
+    color: rgb(110, 110, 110)
+}
+
+.spectxt{
+    color: rgb(110, 110, 110);
+	position: relative;
+    text-decoration: none;
+}
+
+.spectxt:hover{
+    color:blue;
+    animation: onhover 250ms ease;
+    animation-fill-mode: forwards;
+}
+
+a:visited{
+    color: rgb(110, 110, 110)
+}
+
+#main-content{
+    margin-left: 400px;
+    font-size: 20px;
+    border: 2px solid #dbdbdb;
+    flex: 1;
+}
+
+#list-name{
+    color:rgb(0, 0, 0);
+    font-size: larger;
+}
